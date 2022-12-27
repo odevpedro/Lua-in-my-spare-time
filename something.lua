@@ -1,11 +1,22 @@
+-- Perform some basic math operations
+local a = 5
+local b = 3
 
--- this is a comment
---[[ This is a multiline comment
-that is the second line
-and so on
-]]
+-- Addition
+print(a + b)
 
--- Just a hello world here, look to the branch tree
--- That is a print, and belive me! one day that will become the new World of warcraft :)
+-- Subtraction
+print(a - b)
 
-print("I am cool")
+-- Multiplication
+print(a * b)  
+
+-- Division
+print(a / b)
+
+-- Exponentiation
+print(a ^ b)
+
+-- Modulo
+print(a % b)
+
