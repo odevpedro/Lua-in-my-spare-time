@@ -1,22 +1,26 @@
--- Perform some basic math operations
-local a = 5
-local b = 3
+-- for looping
+for i = 1, 10 do
+    print(i)
+  end
 
--- Addition
-print(a + b)
 
--- Subtraction
-print(a - b)
+  -- 3 count
+  for i = 1, 100, 5 do
+    print(i)
+  end
 
--- Multiplication
-print(a * b)  
+  -- while looping
 
--- Division
-print(a / b)
+  local count = 10
+while count > 0 do
+  print(count)
+  count = count - 1
+end
 
--- Exponentiation
-print(a ^ b)
+-- Repeat-until loop
 
--- Modulo
-print(a % b)
-
+local count = 10
+repeat
+  print(count)
+  count = count - 1
+until count == 0
