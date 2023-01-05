@@ -1,26 +1,14 @@
--- for looping
-for i = 1, 10 do
-    print(i)
-  end
+
+-- Just get the name and return
+print("Enter your name:")
+local name = io.read()
+print("Hello, " .. name .. "!")
 
 
-  -- 3 count
-  for i = 1, 100, 5 do
-    print(i)
-  end
+-- now in the same line of the output 
 
-  -- while looping
 
-  local count = 10
-while count > 0 do
-  print(count)
-  count = count - 1
-end
+io.write("Entender your name: ")
+local ans = io.read()
 
--- Repeat-until loop
-
-local count = 10
-repeat
-  print(count)
-  count = count - 1
-until count == 0
+print("Name:", ans)
